@@ -5,7 +5,7 @@ These scripts are part of the research project Intellectual Disability Alert, in
 The files should be run in the following order: 
 -Files loading the data: p02psyf_load, p03anam_load, p04medic_load, p05lich_load, p06labbe_load, p09gaf_load, dsm_dataload. 
 - To be able to fill the NaN's, 'replace_missing' should be run. 
-- Combine all dataload using: 'combine_dataload'
+- Combine all data frames from the dataloads using: 'combine_dataload'
 - Balance datasets on age and gender using: 'Matchen voor Marije.R'
 - Use 'impute_data' to be able to use the k-NN imputer
 - Create the machine learning model running: 'machine_learning'
